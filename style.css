@@ -274,7 +274,8 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
   .picture {
-	height: auto;
+	    height: 350px;
+    		width: 350px;
 	border-radius: 20px;
 	overflow: hidden;
   }
