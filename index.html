@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <!-- Add your logo here (image or SVG) -->
+      <img class="logo2 img-fluid" src="https://bookizone.ma/logo.svg" alt="Bookizone" style="width:182px;">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">Terrains</a></li>
+      <li><a href="#">Clubs</a></li>
+      <li><a href="#">Entreprise</a></li>
+      <li><a href="#">CGV</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Devenir partenaire</a></li>
+      <!-- Add more links as needed -->
+      <div class="nav-icons">
+        <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        <a href="#"><i class="fa fa-user"></i><span class="dn-lg">Login/Register</span></a>
+      </div>
+    </ul>
+  </nav>
+  <div class="contain ">
+    <div class="">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+        <li class="breadcrumb-item"><a href="#">Terrains</a></li>
+        <li class="breadcrumb-item current"><a href="#">Football</a></li>
+      </ol>
+    </div>
+
+    <div>
+      <h2>RCA</h2>
+    </div>
+
+    <div class="flex gap-4">
+      <div class="category">
+        Football
+      </div>
+      <div class="category">
+        6 vs 6
+      </div>
+      <div class="category">
+        Casablanca
+      </div>
+    </div>
+    <div class="flex">
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-3">
+      <div class="section-container md:col-start-1 md:col-end-4">
+        <div class="container-image-list">
+
+
+          <div class="container-image   ">
+            <div class="picture ">
+              <img
+                src="https://media.gettyimages.com/id/578701109/fr/vectoriel/stadium-lights.webp?s=1024x1024&w=gi&k=20&c=dyxo-IsDqpMTurqhYIUQk0bicTFNU0z9hq4qSLXdYlg="
+                alt="">
+            </div>
+            <div class="picture ">
+              <img
+                src="https://media.gettyimages.com/id/578701109/fr/vectoriel/stadium-lights.webp?s=1024x1024&w=gi&k=20&c=dyxo-IsDqpMTurqhYIUQk0bicTFNU0z9hq4qSLXdYlg="
+                alt="">
+            </div>
+
+            <div class="picture ">
+              <img
+                src="https://media.gettyimages.com/id/578701109/fr/vectoriel/stadium-lights.webp?s=1024x1024&w=gi&k=20&c=dyxo-IsDqpMTurqhYIUQk0bicTFNU0z9hq4qSLXdYlg="
+                alt="">
+            </div>
+
+            
+            
+          </div>
+
+        </div>
+      </div>
+      
+      <div class="card md:col-start-4 md:col-end-6">
+        <div class="card-header flex flex-row justify-between	">
+          <div class="flex flex-col justify-start">
+            <h3>À partir de</h3>
+            <h1><span class="price">1200</span> dhs/heure</h1>
+          </div>
+          <span class="icon">⚽</span>
+        </div>
+        <div class="card-details flex flex-col">
+          <h3>Details</h3>
+          <div class="grid grid-cols-2">
+            <div class="detail ">
+              <span class="icon">🚶‍♂️</span>
+              <p>6 vs 6</p>
+            </div>
+            <div class="detail">
+              <span class="icon">📍</span>
+              <p>12 Av Nestlé</p>
+            </div>
+            <div class="detail">
+              <span class="icon">☕</span>
+              <p>Caffé</p>
+            </div>
+            <div class="detail">
+              <span class="icon">🍽️</span>
+              <p>Restaurant</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="card-map">
+          <h3>Localisation</h3>
+          <!-- You can embed a map here or use an image -->
+          <iframe width="100%" height="100%"
+            src="https://maps.google.com/maps?q=33.5722875,-7.5869925&amp;hl=es;z=10&amp;output=embed" frameborder="0"
+            allowfullscreen=""></iframe>
+        </div>
+        <div class="date">
+          <div class="m-5 ">
+            <h3>
+              choisir la date et l'heure de réservation
+            </h3>
+
+            <div class="calendar">
+              <div class="header">
+                <span class="prev">&#10094;</span>
+                <div class="month-year">Mars 2024</div>
+                <span class="next">&#10095;</span>
+              </div>
+              <div class="weekdays">
+                <div>Lundi</div>
+                <div>Mardi</div>
+                <div>Mercredi</div>
+                <div>Jeudi</div>
+                <div>Vendredi</div>
+                <div>Samedi</div>
+                <div>Dimanche</div>
+              </div>
+              <div class="days">
+                <div class="day">8</div>
+                <div class="day">9</div>
+                <div class="day">10</div>
+                <div class="day">11</div>
+                <div class="day">12</div>
+                <div class="day">13</div>
+                <div class="day">14</div>
+                <div class="day">15</div>
+                <div class="day">16</div>
+                <div class="day">17</div>
+                <div class="day selected">18</div>
+                <div class="day selected">19</div>
+                <div class="day selected">20</div>
+                <div class="day selected">21</div>
+                <div class="day selected">22</div>
+                <div class="day selected">23</div>
+                <div class="day selected">24</div>
+                <div class="day selected">25</div>
+                <div class="day selected highlight">26</div>
+                <div class="day selected">27</div>
+                <div class="day selected">28</div>
+                <div class="day">29</div>
+                <div class="day">30</div>
+                <div class="day">31</div>
+                <div class="day">1</div>
+                <div class="day">2</div>
+                <div class="day">3</div>
+                <div class="day">4</div>
+              </div>
+            </div>
+            <div class="time-card">
+              <div class="time-slot">10:00</div>
+              <div class="time-slot">11:00</div>
+              <div class="time-slot">12:00</div>
+              <div class="time-slot highlighted">13:00</div>
+              <div class="time-slot">14:00</div>
+              <div class="time-slot">15:00</div>
+              <div class="time-slot">16:00</div>
+              <div class="time-slot highlighted">17:00</div>
+              <div class="time-slot selected">18:00</div>
+              <div class="time-slot">19:00</div>
+              <div class="time-slot">20:00</div>
+              <div class="time-slot">21:00</div>
+              <div class="time-slot">22:00</div>
+              <div class="time-slot">23:00</div>
+            </div>
+            <div class="reservation">
+
+            </div>
+          </div>
+        </div>
+        <div class="booking-section ">
+          <div class="flex flex-row justify-between">
+            <div>
+              <h3>Total TTC</h3>
+              <p class="price">1200 dhs</p>
+            </div>
+            <button class="book-now">Réserver maintenant</button>
+
+          </div>
+          <p class="disclaimer">*Les tarifs varient dépendamment de la date et l'heure choisie.</p>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+
+    <!-- Add your content here -->
+    <section class=" ">
+      <div>
+        <div class="row">
+          <div class="col-span-6 offset-lg-3">
+            <div class="main-title text-center">
+              <h2 class="text-3xl font-bold mb-4">Terrains en vedette</h2>
+              <p class="text-lg text-gray-600">
+                Explorez les Terrains Stars du Moment !
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="terrain-cards">
+          <div class="card-sug">
+            <div class="pt-3 pr-3 pl-3">
+              <div class="image">
+                <ul class="flex m-4 gap-3 ">
+                  <li class="tags" style="background-color:#609080"><a href="#">football</a></li>
+                  <li class="tags" style="background-color:#F5BE01"><a href="#">En vedette</a></li>
+                </ul>
+                <p>À partir de 500 Dhs</p>
+              </div>
+            </div>
+            <div class="details-card ">
+              <h4 class="flex">Casablanca</h4>
+              <p class="flex">2 vs 2</p>
+            </div>
+            <div class="line-to-use"></div>
+
+            <div class="fp_footer">
+              <a href="https://www.bookizone.ma/terrains/detail/RCA/6/">
+                <ul class="fp_meta float-left mb0">
+                  <li class="list-inline-item"><img src="https://www.bookizone.ma/uploads/clubs/1709896544Gidaba.png"
+                      style="width:27px;" alt="Bookizone - RCA"></li>
+                  <li class="list-inline-item">RCA</li>
+                </ul>
+              </a>
+              <a href="https://www.bookizone.ma/terrains/detail/RCA/6/">
+                <div class="  float-right btn-sm " style="background-color:#FEBC11;color:#F8F9FA">Réserver <i
+                    class="fas fa-file-import"></i></div>
+              </a>
+            </div>
+          </div>
+          <div class="card-sug">
+            <div class="pt-3 pr-3 pl-3">
+              <div class="image">
+                <ul class="flex m-4 gap-3 ">
+                  <li class="tags" style="background-color:#609080"><a href="#">football</a></li>
+                  <li class="tags" style="background-color:#F5BE01"><a href="#">En vedette</a></li>
+                </ul>
+                <p>À partir de 500 Dhs</p>
+              </div>
+            </div>
+            <div class="details-card ">
+              <h4 class="flex">Casablanca</h4>
+              <p class="flex">2 vs 2</p>
+            </div>
+            <div class="line-to-use"></div>
+
+            <div class="fp_footer">
+              <a href="https://www.bookizone.ma/terrains/detail/RCA/6/">
+                <ul class="fp_meta float-left mb0">
+                  <li class="list-inline-item"><img src="https://www.bookizone.ma/uploads/clubs/1709896544Gidaba.png"
+                      style="width:27px;" alt="Bookizone - RCA"></li>
+                  <li class="list-inline-item">RCA</li>
+                </ul>
+              </a>
+              <a href="https://www.bookizone.ma/terrains/detail/RCA/6/">
+                <div class="  float-right btn-sm " style="background-color:#FEBC11;color:#F8F9FA">Réserver <i
+                    class="fas fa-file-import"></i></div>
+              </a>
+            </div>
+          </div>
+          <div class="card-sug">
+            <div class="pt-3 pr-3 pl-3">
+              <div class="image">
+                <ul class="flex m-4 gap-3 ">
+                  <li class="tags" style="background-color:#609080"><a href="#">football</a></li>
+                  <li class="tags" style="background-color:#F5BE01"><a href="#">En vedette</a></li>
+                </ul>
+                <p>À partir de 500 Dhs</p>
+              </div>
+            </div>
+            <div class="details-card ">
+              <h4 class="flex">Casablanca</h4>
+              <p class="flex">2 vs 2</p>
+            </div>
+            <div class="line-to-use"></div>
+
+            <div class="fp_footer">
+              <a href="https://www.bookizone.ma/terrains/detail/RCA/6/">
+                <ul class="fp_meta float-left mb0">
+                  <li class="list-inline-item"><img src="https://www.bookizone.ma/uploads/clubs/1709896544Gidaba.png"
+                      style="width:27px;" alt="Bookizone - RCA"></li>
+                  <li class="list-inline-item">RCA</li>
+                </ul>
+              </a>
+              <a href="https://www.bookizone.ma/terrains/detail/RCA/6/">
+                <div class="  float-right btn-sm " style="background-color:#FEBC11;color:#F8F9FA">Réserver <i
+                    class="fas fa-file-import"></i></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Partners -->
+    <section id="our-partners" class="our-partners py-12">
+      <div class="">
+        <div class="row">
+          <div class="col-span-6 offset-lg-3">
+            <div class="main-title text-center">
+              <h2 class="text-3xl font-bold mb-4">Un Monde de Clubs</h2>
+              <p class="text-lg text-gray-600">
+                Explorez un monde de choix sportifs. Nos clubs partenaires sont prêts à vous accueillir.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-8 flex flex-wrap justify-center">
+          <div class="col-sm-6 col-md-4 col-lg p-4">
+            <div class="our_partner">
+              <img class="img-fluid mx-auto" style="line-height: 85px; width: 85px; max-height: 85px"
+                src="https://bookizone.ma/uploads/clubs/1710761569REMO.png" alt="FLECHE CASABLANCA" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg p-4">
+            <div class="our_partner">
+              <img class="img-fluid mx-auto" style="line-height: 85px; width: 85px; max-height: 85px"
+                src="https://bookizone.ma/uploads/clubs/1711070710des-sports.png" alt="Mohammedia" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg p-4">
+            <div class="our_partner">
+              <img class="img-fluid mx-auto" style="line-height: 85px; width: 85px; max-height: 85px"
+                src="https://bookizone.ma/uploads/clubs/1709896544Gidaba.png" alt="RCA" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  </div>
+
+</body>
+
+</html>
