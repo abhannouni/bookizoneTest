@@ -85,7 +85,7 @@ body {
 
   h1 {
 	margin: 0;
-	font-size: 75px;
+	font-size: 36px;
   }
 
 
@@ -201,6 +201,11 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	color: #008394;
   }
 
+  .day.innactive{
+	/* background-color: #ddd; */
+	color: #ccc;
+  }
+
   .day.highlight {
 	background-color: #008394;
 	color: #fff;
@@ -210,16 +215,17 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   .time-card {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	grid-gap: 10px;
+	grid-gap: 25px;
 	max-width: 500px;
-	margin: 20px;
+	margin: auto;
+	margin-top: 25px;
   }
 
   .time-slot {
-	background-color: #f2f2f2;
 	padding: 10px;
 	text-align: center;
-	border-radius: 5px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
   }
 
   .highlighted {
@@ -274,8 +280,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
   .picture {
-	    height: 350px;
-    		width: 350px;
+	    height: 450px;
 	border-radius: 20px;
 	overflow: hidden;
   }
@@ -330,8 +335,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	font-size: 16px;
 	cursor: pointer;
 	border-radius: 5px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin: auto;
   }
 
   .book-now:hover {
@@ -448,7 +452,9 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   .container-image {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 20px;
+	justify-items:center;
+	gap : 20px;
+	
   }
 
 
@@ -497,6 +503,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     		width: 350px;
 	  border-radius: 20px;
 	  overflow: hidden;
+	  
 	}
 
 	.picture img {
