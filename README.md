@@ -9,8 +9,8 @@ To get started with this project, simply clone the repository to your local mach
 git clone https://github.com/abhannouni/bookizoneTest.git
 ```
 
-##Usage
+## Usage
 Once you've cloned the repository, open the index.html file in your web browser
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
